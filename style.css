@@ -1,0 +1,108 @@
+body{
+    margin: 50px;
+    background: linear-gradient(93deg, #3bf7a6 0%, #7438ff 100%);
+}
+
+img{
+    padding: 20px;
+    border-radius: 50%;
+    background: linear-gradient(0deg,#f00 0%,#fff 100%);
+}
+
+.imagen-main{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    width: 300px;
+    text-align: center;
+    font-family: console, sans-serif;
+    color: purple;
+    font-size: 70px;
+    transform: rotate(5deg);
+    text-shadow: 5px 5px 10px #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro{
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menu{
+    padding: 50px;
+    background: lime;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: purple;
+    font-size: 50px;
+    block-size: 100px;
+}
+
+.nav{
+    font-size: 30px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a link:{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:visited{
+    background-color: purple;
+}
+
+a:hover{
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+.div-manzana{
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(93deg, #eb0000 0%, #fff838 100%);
+    border-radius: 30px;
+}
+
+.div-chocolate{
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(93deg, #422f2f 20%, #fafafa 100%);
+    color: white;
+    border-radius: 30px;
+}
+
+.div-fresa{
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(93deg, #6b0000 20%, #fe7171 100%);
+    color: white;
+    border-radius: 30px; 
+}
